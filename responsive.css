@@ -88,8 +88,9 @@
         align-items: center;
         gap: 20px;
         
+        
     }
-    
+   
     .collection{
         padding: 100px;
 
@@ -103,7 +104,7 @@
     }
    
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:998px){
     .all-collections{
         display: flex;
         flex-direction: column;
