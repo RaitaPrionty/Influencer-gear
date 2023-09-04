@@ -161,3 +161,14 @@ padding: 20px 0;
 .fatured-products>div{
     width: 50%;
 }
+/* styles of footer---------------------
+----------------------------------------- */
+footer h5{
+    padding: 20px 0;
+}
+footer{
+    background: #0A0826;
+    color: white;
+    padding: 50px 100px;
+    text-align: center;
+}
