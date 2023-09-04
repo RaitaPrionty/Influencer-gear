@@ -99,3 +99,65 @@ justify-content: center;
     border-radius: 20px;
     
 }
+/* styles of popular collection part-----------------------
+---------------------------------------------------------- */
+.popular-collection h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.star-hr{
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+}
+.paragraph{
+    color: #787885;
+font-size: 14px;
+font-weight: 700;
+}
+.collection h3{
+    color: #18191F;
+font-size: 23px;
+font-weight: 500;
+padding: 20px 0;
+}
+.collection{
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    padding: 30px;
+}
+.all-collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 30px 100px;
+
+}
+.collection-btn{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: rgba(224, 44, 109, 0.87);
+    padding: 10px 15px;
+    border: none;
+    margin-left: 100px;
+    
+}
+/* start of fatured products part---------------------
+------------------------------------------------------ */
+.fatured-writing p{
+    padding: 30px 0;
+}
+.fatured-products{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+.fatured-products>div{
+    width: 50%;
+}

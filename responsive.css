@@ -27,6 +27,7 @@
 @media screen and (max-width:1000px){
     .banner{
         flex-direction: column-reverse;
+        
 
     }
     .banner>div{
@@ -41,6 +42,13 @@
     .banner{
         padding: 50px;
         gap: 100px;
+        /* text-align: center; */
+    }
+    .btn{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
     }
 }
 /* responsive for logos part-----------------------
@@ -53,11 +61,79 @@
     
 }
 @media screen and (max-width:650px){
-    .logos{
+    .logos img{
         
-        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-columns: repeat(1, 1fr); */
        margin: 30px;
+       width: 60%;
+    column-gap: 0;
        
     }
+    .logos{
+        width: 100%;
+        padding: 0px;
+        margin: 0;
+        gap: 20px;
+    }
     
+}
+/* responsive for popular collections-----------------
+------------------------------------------------ */
+@media screen and (max-width:1200px){
+    .all-collections{
+        padding:50px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    
+    .collection{
+        padding: 100px;
+
+    }
+    .collection-btn{
+        text-align: center;
+    }
+    .popular-collection h2{
+    margin: 0;
+    padding: 50px ;
+    }
+   
+}
+@media screen and (max-width:576px){
+    .collection{
+        padding: 50px;
+        width: 100%;
+    }
+    .collection img{
+        width: 100%;
+    }
+    .star-hr img{
+        width: 15%;
+    }
+}
+/* responsive for fatured products---------------
+-------------------------------------------- */
+@media screen and (max-width:1000px){
+    .fatured-products{
+        flex-direction: column;
+        padding: 30px;
+        
+    
+        
+    }
+    .fatured-img img{
+        width: 100%;
+    }
+   
+   
+}
+@media screen and (max-width:800px){
+    .fatured-products>div{
+        width: 100%;
+    }
+
 }
