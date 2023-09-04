@@ -82,8 +82,8 @@
 @media screen and (max-width:1200px){
     .all-collections{
         padding:50px 100px;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
         gap: 20px;
@@ -103,7 +103,13 @@
     }
    
 }
-@media screen and (max-width:576px){
+@media screen and (max-width:700px){
+    .all-collections{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .collection{
         padding: 50px;
         width: 100%;
