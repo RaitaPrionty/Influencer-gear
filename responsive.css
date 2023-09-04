@@ -1,0 +1,45 @@
+/* responsive for header nav part-----------------
+----------------------------------------------- */
+@media screen and (max-width:998px){
+    header .header-nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+}
+@media screen and (max-width:576px){
+   header .anchore{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   }
+   header .header-titel{
+    font-size: 18px;
+   }
+   .header-nav{
+    text-align: center;
+    padding: 50px;
+   }
+    
+}
+/* responsive for banner part-------------------
+------------------------------------------------ */
+@media screen and (max-width:1000px){
+    .banner{
+        flex-direction: column-reverse;
+
+    }
+    .banner>div{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:650px){
+    .banner>div{
+        width: 100%;
+    }
+    .banner{
+        padding: 50px;
+        gap: 100px;
+    }
+}
