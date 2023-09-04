@@ -92,5 +92,10 @@ justify-content: center;
     gap: 50px;
     align-items: center;
     justify-content: center;
-    background-color:#FFF;;
+    background-color:whitesmoke;
+    padding: 30px 100px;
+    margin: 100px;
+    border: none;
+    border-radius: 20px;
+    
 }
