@@ -145,8 +145,12 @@ padding: 20px 0;
     color: rgba(224, 44, 109, 0.87);
     padding: 10px 15px;
     border: none;
-    margin-left: 100px;
+    margin-right: 100px;
     
+}
+.button{
+   display: flex;
+   justify-content: right;
 }
 /* start of fatured products part---------------------
 ------------------------------------------------------ */
